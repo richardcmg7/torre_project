@@ -17,3 +17,13 @@
 * 8:30 A.M. Load first commit on Git Hub Angular Project. [Angular project](https://github.com/richardcmg7/torre_project/tree/dev/Angular/app-torre "Foleder of Angular Project")
 * 9:20 A.M. Continue with XD design - low level.
 * 12:00 M. Load Document document of the low design - Design approach.  Rest time to 2:00 P.M.
+
+## Day 2 03/02/2021 - A
+
+* 2:00 P.M Continue working in genome design. 
+* 5:00 P.M Advance in General Schema creation
+* 5:30 P.M Cors Problem detected for Angular petition in GET petition. The header CORS from the api is send it incorrectly. 
+
+Access to XMLHttpRequest at 'https://torre.bio/api/bios/richardcamilosaavedraconeo' from origin 'http://localhost:4200' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+Access to XMLHttpRequest at 'https://torre.bio/api/opportunities/VWYZmewN' from origin 'http://localhost:4200' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+
