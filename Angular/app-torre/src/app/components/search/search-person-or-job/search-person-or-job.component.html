@@ -1,0 +1,11 @@
+
+<div class="sizeContainerSearch bordeRadiusContainer colorLightGray" >
+  <div class="w-100 d-flex justify-content-center">
+    <input type="text" class="form-control w-75 buttonRadius mt-4" placeholder="{{ messagePlaceholder }}">
+  </div>
+  <div class="d-flex justify-content-around mt-5">
+    <button type="button" (click)="changeJobOrPerson(true)" class="btn btn-dark w-50 {{ colorHoverPerson }}">PERSONAS </button>
+    <button type="button" (click)="changeJobOrPerson(false)" class="btn btn-dark w-50 {{ colorHoverJob }}">EMPLEO </button>
+  </div>
+</div>
+
