@@ -1,0 +1,23 @@
+.containerProfile {
+  margin: auto;
+  width: 97%;
+}
+
+svg {
+  width: 80%;
+  margin-left: 10px;
+}
+
+@media (max-width: 960px) {
+  .informationUser {
+    font-size: 13px;
+  }
+}
+
+.marginRightLess {
+  margin-right: -20px;
+}
+
+.marginLefttLess {
+  margin-left: -20px;
+}

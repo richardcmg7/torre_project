@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+.colorDarkGray {
+  background-color: #504f4f;
+  color: white;
+}
+
+.colorLightGray {
+  background-color: #9a9595;
+  color: white;
+}
+
+.colorBlack {
+  background-color: #27292d;
+  color: white;
+}
+
+.topContainer {
+  height: 40px;
+}
+
+.bordeRadiusContainer {
+  border-radius: 8px;
+}

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "app-torre"
+    }
+  },
+  "defaultProject": "app-torre",
+  "cli": {
+    "analytics": "5adacd1f-403f-42d8-a93d-3936999b67c3"
+  }
 }
