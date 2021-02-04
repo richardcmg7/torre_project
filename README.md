@@ -29,3 +29,7 @@ Access to XMLHttpRequest at 'https://torre.bio/api/opportunities/VWYZmewN' from 
 * 08:30 P.M  Load Design document on doc folder
 * 08:30 P.M. Commit advance of angular project * start to develop programming log.
 * 09:30 Final Activities * Review - Update notion  - Load programming document
+
+## Day 2 03/02/2021 - B
+
+* 8:00 A.M Start the day - Design search fields
