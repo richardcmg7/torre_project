@@ -26,4 +26,6 @@
 
 Access to XMLHttpRequest at 'https://torre.bio/api/bios/richardcamilosaavedraconeo' from origin 'http://localhost:4200' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 Access to XMLHttpRequest at 'https://torre.bio/api/opportunities/VWYZmewN' from origin 'http://localhost:4200' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
-
+* 08:30 P.M  Load Design document on doc folder
+* 08:30 P.M. Commit advance of angular project * start to develop programming log.
+* 09:30 Final Activities * Review - Update notion  - Load programming document
