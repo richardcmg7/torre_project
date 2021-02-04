@@ -30,6 +30,12 @@ Access to XMLHttpRequest at 'https://torre.bio/api/opportunities/VWYZmewN' from 
 * 08:30 P.M. Commit advance of angular project * start to develop programming log.
 * 09:30 Final Activities * Review - Update notion  - Load programming document
 
-## Day 2 03/02/2021 - B
+## Day 2 04/02/2021 - B
 
 * 8:00 A.M Start the day - Design search fields
+* 10:00 A.M Start develop search module
+* 12:00 M Upload advance Angular in Search module. Rest - time
+
+## Day 3 04/02/2021 - A
+
+* 2:00 P.M. Adjust for search Design
