@@ -16,3 +16,23 @@
 .buttonRadius {
   border-radius: 20px;
 }
+
+@media (max-width: 540px) {
+  .sizeContainerSearch {
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+    width: 90%;
+    margin-top: 125px;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 960px) {
+  .sizeContainerSearch {
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+    width: 60%;
+    margin-top: 125px;
+  }
+}

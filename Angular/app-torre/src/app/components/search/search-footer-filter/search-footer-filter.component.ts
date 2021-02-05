@@ -8,9 +8,11 @@ import { Component, OnInit, Input } from '@angular/core';
 export class SearchFooterFilterComponent implements OnInit {
 
   activateJumbotronBig = false;
-  //@Input() selectionJobOrPerson;
+  @Input() selectionJobOrPerson;
 
-  constructor() { }
+  constructor() {
+    this.selectionJobOrPerson = "";
+  }
 
   ngOnInit(): void {
   }
@@ -18,5 +20,4 @@ export class SearchFooterFilterComponent implements OnInit {
   activateJumbotron(boolean) {
     this.activateJumbotronBig = boolean;
   }
-
 }

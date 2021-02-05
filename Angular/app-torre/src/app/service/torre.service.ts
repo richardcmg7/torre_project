@@ -28,16 +28,31 @@ export class TorreService {
     )
   }
 
-  searchOpo(offset,size,aggregate) {
-    return this.http.post(`${this.searchUrl}opportunities/_search/?offset=${offset}&size=${size}&aggregate=${aggregate}`,this.dataNull).pipe(
+  searchOpo(data) {
+    let opportunities = {
+      "offset": data.offset,
+      "size": data.size,
+      "aggregate":data.aggregate
+    }
+    return this.http.post(`${this.searchUrl}opportunities/_search/?offset=${opportunities.offset}&size=${opportunities.size}&aggregate=${opportunities.aggregate}`,this.dataNull).pipe(
       map(resp => {
         return resp;
       })
     )
   }
 
-  searchPeople(currency,page,periodicity,lang,size,aggregate,offset) {
-    return this.http.post(`${this.searchUrl}people/_search/?currency=${currency}&page=${page}&periodicity=${periodicity}&lang=${lang}&size=${size}&aggregate=${aggregate}&offset=${offset}`,this.dataNull).pipe(
+  searchPeople(data) {
+    let people = {
+      "currency": "USD",
+      "page": 1,
+      "periodicity": "hourly",
+      "lang": "es",
+      "size": 20,
+      "aggregate": data,
+      "offset": 1,
+    }
+    return this.http.post(`${this.searchUrl}people/_search/?currency=${people.currency}&page=${people.page}
+      &periodicity=${people.periodicity}&lang=${people.lang}&size=${people.size}&aggregate=${people.aggregate}&offset=${people.offset}`, this.dataNull).pipe(
       map(resp => {
         return resp;
       })

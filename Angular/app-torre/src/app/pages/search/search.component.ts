@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class SearchComponent implements OnInit {
 
   dataSelectText;
+  jsonUserCard;
+  jsonJodCard;
   constructor() { }
 
   ngOnInit(): void {
@@ -15,6 +17,14 @@ export class SearchComponent implements OnInit {
 
   dataSelectButton(data) {
     this.dataSelectText = data;
+  }
+
+  infortionJobConsult(information) {
+    this.jsonJodCard = information;
+  }
+
+  infortionUserConsult(information) {
+    this.jsonUserCard = information;
   }
 
 }

@@ -1,7 +1,7 @@
-<div *ngIf="activateJumbotronBig==false" class="colorDarkGray sizeJumbotron">
-  <h5 class="text-center" (click)="activateJumbotron(true)">Filtrar persona por</h5>
+<div *ngIf="activateJumbotronBig==false" class="colorDarkGray sizeJumbotron ">
+  <h5 class="text-center" (click)="activateJumbotron(true)"><small class="colorHover sizeTextFilter">Filtrar {{ selectionJobOrPerson }} por</small> <small class="ml-3 colorHover">V</small></h5>
 </div>
 
-<div *ngIf=" activateJumbotronBig" class="sizeJumbotronBig colorDarkGray">
-  <h5 class="text-center" (click)="activateJumbotron(false)">Filtrar persona por</h5>
+<div *ngIf=" activateJumbotronBig" class="sizeJumbotronBig colorDarkGray ">
+  <h5 class="text-center " (click)="activateJumbotron(false)"> <small class="colorHover sizeTextFilter">Filtrar {{ selectionJobOrPerson }} por</small> <small class="ml-3 colorHover">V</small> </h5>
 </div>
