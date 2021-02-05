@@ -53,5 +53,12 @@ https://xd.adobe.com/view/1de96038-4223-4401-904a-8f2b7f17ca0d-48ba/
 https://xd.adobe.com/view/f60afc73-eab4-4152-a772-3e73566bb7a7-a359/
 
 * 10:10 A.M Start Deployment
+* 11:00 A.M Last Angular Commit for the test.
+Route for Deploy:
+    https://torretechleader.herokuapp.com/#/search - [Deploy]( https://torretechleader.herokuapp.com/#/search "Heroku Deploy")
+    - Search module "Persona" use the api and show results - Show schema of Gnome design.
+    - See document Day 3 - Final status Torre App
 * 11:30 A.M Send the documents requested - Make lastest commit
 * 11:59 A.M Final of time of technical test
+
+## RICHARD CAMILO SAAVEDRA CONEO
