@@ -49,6 +49,9 @@ Access to XMLHttpRequest at 'https://torre.bio/api/opportunities/VWYZmewN' from 
 
 * 7:30 A.M Start the day preparing documents to upload - Angular Programming
 * 10:00 A.M Upload XD designs
+https://xd.adobe.com/view/1de96038-4223-4401-904a-8f2b7f17ca0d-48ba/
+https://xd.adobe.com/view/f60afc73-eab4-4152-a772-3e73566bb7a7-a359/
+
 * 10:10 A.M Start Deployment
 * 11:30 A.M Send the documents requested - Make lastest commit
 * 11:59 A.M Final of time of technical test
