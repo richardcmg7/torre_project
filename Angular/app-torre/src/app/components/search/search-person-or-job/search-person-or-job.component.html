@@ -1,11 +1,46 @@
 
-<div class="sizeContainerSearch bordeRadiusContainer colorLightGray" >
+<div *ngIf="userOrJobCard==false" class="sizeContainerSearch bordeRadiusContainer colorLightGray" >
   <div class="w-100 d-flex justify-content-center">
     <input type="text" class="form-control w-75 buttonRadius mt-4"  (keyup.enter)="definePeopleOrJod(validateSendInput)" [(ngModel)]="informationConsult"  placeholder="{{ messagePlaceholder }}">
   </div>
   <div class="d-flex justify-content-around mt-5">
     <button type="button" (click)="changeJobOrPerson(true)" class="btn btn-dark w-50 {{ colorHoverJob }}">PERSONAS </button>
     <button type="button" (click)="changeJobOrPerson(false)" class="btn btn-dark w-50 {{  colorHoverPerson }}">EMPLEO </button>
+  </div>
+</div>
+<!--user information card-->
+<div class="row" *ngIf="userOrJobCard">
+  <div class="col-12">
+    <div class="w-100 d-flex justify-content-end">
+      <button type="button" (click)="searchOtherPeoples()" class="btn btn-dark  {{ colorHoverJob }} sizeButtonDeleteFilter">Delete filter</button>
+    </div>
+    <div  class="card-deck sizeCard buttonRadius" *ngFor="let item of dataUsersConsult.results">
+      <div class="card colorDarkGray">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-12  col-sm-6 col-lg-3">
+              <section *ngIf="item.picture" class="hexagon-gallery">
+                <div class="hex"><img src="{{ item.picture }}" alt="some"></div>
+              </section>
+            </div>
+            <div class="col-12 col-sm-6  col-lg-9">
+              <h6 *ngIf="item.name" class="">Name: <small class="textInformationSize">{{ item.name }}</small></h6>
+              <h6 *ngIf="item.professionalHeadline" class="">Professional: <small class="textInformationSize">{{ item.professionalHeadline }}</small></h6>
+              <h6 *ngIf="item.locationName" class="">Location: <small class="textInformationSize">{{ item.locationName }}</small></h6>
+              <h6 *ngIf="item.remoter">Remote: <small class="textInformationSize">  {{ item.locationName }}</small></h6>
+              <h6 *ngIf="item.compensations.employee" class="">Employee: <small class="textInformationSize"> {{ item.compensations.employee.currency }} {{
+                item.compensations.employee.amount }} - {{ item.compensations.employee.periodicity }}</small></h6>
+              <h6 *ngIf="item.compensations.freelancer" class="">Freelancer: <small class="textInformationSize"> {{ item.compensations.freelancer.currency }} ${{
+                item.compensations.freelancer.amount }} - {{ item.compensations.freelancer.periodicity }}</small> </h6>
+
+              <h6 *ngIf="item.skills[0]" class="">Skill: <small class="textInformationSize">{{ item.skills[0].name }}</small> </h6>
+              <h6 *ngIf="item.skills[1]" class="">Skill: <small class="textInformationSize">{{ item.skills[1].name }}</small>  </h6>
+              <h6 *ngIf="item.skills[2]" class="">Skill: <small class="textInformationSize">{{ item.skills[2].name }}</small></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 

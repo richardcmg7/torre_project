@@ -14,6 +14,7 @@ export class SearchPersonOrJobComponent implements OnInit {
   messagePlaceholder = "Buscar personas por cargo";
   messagePerson = "persona";
   messageJob = "empleo";
+  userOrJobCard = false;
   informationConsult;
   validateSendInput = true;
   dataUsersConsult;
@@ -75,7 +76,7 @@ export class SearchPersonOrJobComponent implements OnInit {
       Swal.close();
       this.dataUsersConsult = resp;
       console.log(this.dataUsersConsult);
-
+      this.userOrJobCard = true;
     },
     error => {
       Swal.close();
@@ -122,5 +123,10 @@ export class SearchPersonOrJobComponent implements OnInit {
         text: "Error al momento de realizar la consulta",
       });
     });
+   }
+
+  searchOtherPeoples() {
+    this.dataUsersConsult = null;
+    this.userOrJobCard = false;
   }
 }
