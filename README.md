@@ -42,3 +42,5 @@ Access to XMLHttpRequest at 'https://torre.bio/api/opportunities/VWYZmewN' from 
 * 05:00 P.M  Continue Coding angular Project.
 * 07:00 P.M  Update Readme and load Design document.
 - Stop design and continue just code focusing in search module.
+* 10:30 P.M Load Update version of Angular App
+* 11:00 P.M Load document of activities developed * Review - Update notion 
