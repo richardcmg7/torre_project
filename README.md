@@ -44,3 +44,11 @@ Access to XMLHttpRequest at 'https://torre.bio/api/opportunities/VWYZmewN' from 
 - Stop design and continue just code focusing in search module.
 * 10:30 P.M Load Update version of Angular App
 * 11:00 P.M Load document of activities developed * Review - Update notion 
+
+## Day 3 05/02/2021 - B
+
+7:30 A.M Start the day preparing documents to upload - Angular Programming
+10:00 A.M Upload XD designs
+10:10 A.M Start Deployment
+11:30 A.M Send the documents requested - Make lastest commit
+11:59 A.M Final of time of technical test
