@@ -38,4 +38,7 @@ Access to XMLHttpRequest at 'https://torre.bio/api/opportunities/VWYZmewN' from 
 
 ## Day 3 04/02/2021 - A
 
-* 2:00 P.M. Adjust for search Design
+* 02:00 P.M. Adjust for search Design
+* 05:00 P.M  Continue Coding angular Project.
+* 07:00 P.M  Update Readme and load Design document.
+- Stop design and continue just code focusing in search module.
